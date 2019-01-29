@@ -1,0 +1,34 @@
+appium自动化环境搭建：
+1.安装selenium3.7.0以上版本（安装Appium Python Client的前提）
+	pip install selenium	安装
+	pip install selenium -U	升级
+	import selenium
+	selenium.__version__	查看版本
+2.安装Appium Python Client  （0.25版本）
+	pip install Appium-Python-Client
+3.安装Appium Server
+	由于appium server是JavaScript编写的，所以需要先安装Node.js,用于解释js程序。
+	方法一：npm install -g appium,此方法速度非常慢，不建议。
+	方法二：appium desktop
+		项目地址：https://github.com/appium/appium-desktop
+		下载地址：https://github.com/appium/appium-desktop/releases/latest
+			  下载appium-desktop-Setup-1.2.7.exe
+4.安装Androidstudio
+	https://developers.google.cn 点击最下面的android跳转至
+	https://developer.android.google.cn/index.html点击Androidstudio跳转至
+	https://developer.android.google.cn/studio/index.html
+	说了这么多，其实我们不是程序猿，所以我们并不需要Androidstudio，而是应用其中的sdk
+	工具包。而androidstudio提供了下载sdk的入口。
+	sdk下载地址：www.androiddevtools.cn
+	在androidstudio中的最新版本3.0.0中，下载sdk需要翻墙，所以我们选择安装
+	androidstudio2.3.3版本。老版本地址https://developer.android.google.cn/studio/archive.html
+	再其实，我们也不需要androidstudio，我们只需用到adb，所以我个人选择不装androidstudio。
+5.安装jdk
+6.安装手机模拟器
+	方法一：androidstudio---> tools--> android--> avd manager
+	方法二：下载genymotion   https://www.genymotion.com
+
+
+
+
+jdk下载地址http://java.oracle.com
