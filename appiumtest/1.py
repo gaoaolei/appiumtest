@@ -28,3 +28,7 @@ driver.find_element_by_id('cn.com.pyc.pbb:id/afs_txt_name').click()
 time.sleep(1)
 driver.find_element_by_id('cn.com.pyc.pbb:id/afs_txt_date').click()
 time.sleep(1)
+
+
+
+# dfadf
